@@ -1,0 +1,29 @@
+html,
+body {
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--graphite);
+}
+
+.header .nav {
+  display: flex;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__item {
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.work {
+  background-color: var(--gray);
+}
