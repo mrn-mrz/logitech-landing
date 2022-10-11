@@ -7,6 +7,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--graphite);
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .header .nav {
@@ -21,7 +23,17 @@ body {
 
 .nav__item {
   text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: 500;
   color: var(--white);
+  text-align: center;
+  border-right: 1px var(--separator) solid;
+}
+
+.nav__item:hover {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px var(--white) solid;
 }
 
 .work {

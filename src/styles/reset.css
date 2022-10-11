@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+*:hover {
+  text-decoration: none;
+}
+
 ul[class],
 ol[class] {
   padding: 0;
@@ -34,6 +38,10 @@ img {
 }
 
 a {
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: none;
 }
 
