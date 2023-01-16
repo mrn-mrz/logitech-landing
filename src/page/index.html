@@ -16,23 +16,23 @@
     <img src="../../public/icons/logo.svg" alt="логотип">
     <nav class="nav">
       <ul class="nav__list">
-        <li>
-          <a class="nav__item" href="#wireless">Работайте без проводов</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#wireless">Работайте без проводов</a>
         </li>
-        <li>
-          <a class="nav__item" href="#surface">Где угодно</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#surface">Где угодно</a>
         </li>
-        <li>
-          <a class="nav__item" href="#comfort">С комфортом</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#comfort">С комфортом</a>
         </li>
-        <li>
-          <a class="nav__item" href="#devices">С разных устройств</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#devices">С разных устройств</a>
         </li>
-        <li>
-          <a class="nav__item" href="#settings">В любое время</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#settings">В любое время</a>
         </li>
-        <li>
-          <a class="nav__item" href="#speed">И еще быстрее</a>
+        <li class="nav__item">
+          <a class="nav__link" href="#speed">И еще быстрее</a>
         </li>
       </ul>
     </nav>
@@ -47,7 +47,10 @@
     </picture>
     <p class="text work__text">Создана для эффективной работы, программирования и творчества</p>
     <a  href="#wireless">
-      <img class="work__button" src="../../public/icons/arrow.svg" alt="Далее">
+      <!-- <img class="work__button" src="../../public/icons/arrow.svg" alt="Далее"> -->
+      <svg>
+        <use xlink:href="../../public/icons/sprite.svg#arrow"></use>
+      </svg>
     </a>
   </section>
   <section class="wireless" id="wireless">
