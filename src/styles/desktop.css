@@ -7,8 +7,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--graphite);
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-top: 1.4em;
+  padding-bottom: 1.4em;
 }
 
 .header .nav {
@@ -51,4 +51,35 @@ body {
 
 .work {
   background-color: var(--gray);
+  display: grid;
+  justify-content: center;
+}
+
+.work__title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 5em;
+  text-transform: uppercase;
+}
+
+.work__img {
+  margin-top: 1em;
+}
+
+.work__text {
+  margin-top: 0.4em;
+  text-align: center;
+}
+
+.work__link {
+  display: flex;
+  justify-content: center;
+}
+
+.work__button {
+  margin-top: 2.45em;
+  margin-bottom: 4em;
+  height: 1.45em;
+  width: 2.85em;
 }
