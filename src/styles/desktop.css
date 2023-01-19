@@ -58,8 +58,8 @@ body {
 .work__title {
   position: absolute;
   left: 50%;
+  top: 5em;
   transform: translate(-50%, -50%);
-  padding-top: 5em;
   text-transform: uppercase;
 }
 
