@@ -51,8 +51,9 @@ body {
 
 .work {
   background-color: var(--gray);
-  display: grid;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .work__title {
@@ -85,4 +86,37 @@ body {
 
 .wireless {
   background-color: var(--light-gray);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wireless__icon {
+  padding-top: 4em;
+  padding-bottom: 1.75em;
+  width: 1.075em;
+}
+
+.wireless__text {
+  width: 38.05em;
+  padding-top: 1.75em;
+}
+
+.wireless__info {
+  color: var(--dark-gray);
+  font-weight: 900;
+}
+
+.wireless__info_big {
+  font-size: 15em;
+}
+
+.wireless__info_small {
+  font-size: 4.8em;
+}
+
+.wireless__img {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.4em;
 }
