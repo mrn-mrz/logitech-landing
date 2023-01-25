@@ -100,15 +100,23 @@ body {
 .wireless__text {
   width: 38.05em;
   padding-top: 1.75em;
+  padding-bottom: 0.7em;
 }
 
 .wireless__info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   color: var(--dark-gray);
   font-weight: 900;
+  margin-bottom: -11.65em;
+  margin-left: 3.6em;
+ 
 }
 
 .wireless__info_big {
   font-size: 15em;
+  line-height: 351.56px;
 }
 
 .wireless__info_small {
@@ -119,4 +127,8 @@ body {
   display: flex;
   align-items: flex-start;
   margin-bottom: 2.4em;
+}
+
+.wireless__img_right {
+  margin-right: 2.25em;
 }
