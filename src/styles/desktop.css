@@ -171,3 +171,37 @@ body {
 .surface__text_bottom {
   margin-top: 1.75em;
 }
+
+.devices {
+  padding-top: 5em;
+  padding-bottom: 43.5em;
+  background-image: url(../../public/img/devices_desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devices__text {
+  margin-top: 1.75em;
+  margin-bottom: 3.45em;
+  width: 47.9em;
+}
+
+.devices__list {
+  display: flex;
+  justify-content: center;
+  width: 47.9em;
+  text-align: left;
+}
+
+.devices__item {
+  border-left: 1px var(--separator) solid;
+  border-right: 1px var(--separator) solid;
+  height: 3em;
+  padding-left: 3.65em;
+  padding-right: 1.4em;
+  margin-left: 0.6em;
+  margin-right: 2.9em;
+}
