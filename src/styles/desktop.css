@@ -205,3 +205,38 @@ body {
   margin-left: 0.6em;
   margin-right: 2.9em;
 }
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--light-gray);
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.settings__text {
+  width: 48em;
+  margin-top: 1.9em;
+  margin-bottom: 3.6em;
+}
+
+.settings__apps {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  padding-top: 1.9em;
+  padding-bottom: 1.45em;
+  width: 37.45em;
+}
+
+.settings__icons {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1.75em;
+  padding: 0 6em 1.25em 6em;
+}
+
+.settings__info {
+  padding-left: 3.15em;
+  padding-right: 3.15em;
+}
