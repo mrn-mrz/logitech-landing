@@ -52,32 +52,22 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 4em;
 }
 
 .work__title {
   position: absolute;
-  left: 50%;
-  top: 5.555em;
-  transform: translate(-50%, -50%);
-}
-
-.work__img {
-  margin-top: 1em;
+  top: 5.6em;
+  transform: translate(0%, 0%);
 }
 
 .work__text {
   margin-top: 0.4em;
-  text-align: center;
-}
-
-.work__link {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 2.45em;
 }
 
 .work__button {
-  margin-top: 2.45em;
-  margin-bottom: 4em;
   height: 1.45em;
   width: 2.85em;
 }
