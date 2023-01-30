@@ -5,33 +5,31 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: var(--graphite);
-  padding-top: 1.4em;
-  padding-bottom: 1.4em;
-}
-
-.header .nav {
-  display: flex;
-}
-
-.nav {
-  margin-left: 9.1875em;
+  padding: 1.4em 3.05em;
 }
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .nav__item {
   border-right: 1px var(--separator) solid;
-  padding: 0 1.375em 0 1.375em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+}
+
+.nav__item:first-child {
+  padding-left: 0;
 }
 
 .nav__item:last-child {
   border-right: none;
+  padding-right: 0;
 }
 
 .nav__link {
