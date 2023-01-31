@@ -220,10 +220,13 @@ body {
   display: flex;
   justify-content: center;
   width: 47.9em;
-  text-align: left;
 }
 
 .devices__item {
+  text-align: left;
+}
+
+.devices__item:nth-child(2) {
   border-left: 1px var(--separator) solid;
   border-right: 1px var(--separator) solid;
   height: 3em;
