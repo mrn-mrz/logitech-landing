@@ -164,6 +164,41 @@ body {
   margin-top: 1.75em;
 }
 
+.carousel__text {
+  font-weight: 900;
+  font-size: 1em;
+  line-height: 1.15em;
+  text-align: center;
+  margin-top: 1.95em;
+  margin-bottom: 0.75em;
+}
+
+.carousel__control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel__prev {
+  border: none;
+  background: none;
+  margin-right: 1.5em;
+  cursor: pointer;
+}
+
+.carousel__next {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.carousel__indicator {
+  border: none;
+  background: none;
+  margin-right: 1.5em;
+  cursor: pointer;
+}
+
 .devices {
   padding-top: 5em;
   padding-bottom: 43.5em;
