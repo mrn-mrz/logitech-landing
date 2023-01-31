@@ -286,8 +286,16 @@ body {
   flex-direction: column;
   align-items: flex-start;
   width: 20em;
-  margin-left: 1.85em;
+  margin-left: 1.8em;
+}
 
+#comfort__h2 {
+  text-align: start;
+}
+
+#comfort__text {
+  text-align: start;
+  margin-top: 1.4em;
 }
 
 .speed {
@@ -305,7 +313,16 @@ body {
   flex-direction: column;
   align-items: flex-end;
   width: 20em;
-  margin-right: 1.85em;
+  margin-right: 1.8em;
+}
+
+#speed__h2 {
+  text-align: end;
+}
+
+#speed__text {
+  text-align: end;
+  margin-top: 1.4em;
 }
 
 .footer {
