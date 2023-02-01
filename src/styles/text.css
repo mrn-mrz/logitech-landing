@@ -18,3 +18,19 @@ body {
   text-align: center;
   line-height: 23.44px;
 }
+
+@media (max-width: 894px) {
+  html,
+  body {
+    font-size: 24px; 
+  }
+  .h2 {
+    font-size: 1.66em;
+    line-height: 1.958em;
+  }
+  
+  .text {
+    font-weight: 400;
+    line-height: 28px;
+  }
+}

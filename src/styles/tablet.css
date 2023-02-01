@@ -1,0 +1,25 @@
+@media (max-width: 894px) {
+  .header {
+    display: none;
+  }
+
+  .work {
+    padding-top: 6.66em;
+    padding-bottom: 3.33em;
+  }
+
+  .work__title {
+    top: 7.15em;
+  }
+
+  .work__text {
+    width: 24.375em;
+    margin-top: 5.166em;
+    margin-bottom: 3.166em;
+  }
+
+  .work__button {
+    height: 1.208em;
+    width: 2.375em;
+  }
+}
