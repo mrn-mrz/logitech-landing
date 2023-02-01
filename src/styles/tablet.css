@@ -22,4 +22,40 @@
     height: 1.208em;
     width: 2.375em;
   }
+
+  .wireless {
+    padding-top: 3.33em;
+    padding-bottom: 0;
+  }
+
+  .wireless__icon {
+    margin-bottom: 1.66em;
+    width: 0.89em;
+  }
+
+  .wireless__text {
+    width: 30.83em;
+    margin-top: 1.25em;
+    margin-bottom: 3.16em;
+  }
+
+  .wireless__info {
+    line-height: 7.33em;
+    margin-bottom: -3.208em;
+    margin-left: 0;
+  }
+
+  .wireless__info_big {
+    font-size: 6.25em;
+    padding-right: 0.25em;
+  }
+
+  .wireless__info_small {
+    font-size: 6.25em;
+    padding-top: 0;
+  }
+
+  .wireless__img_left {
+    display: none;
+  }
 }
