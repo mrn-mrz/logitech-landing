@@ -107,11 +107,27 @@
     margin-right: 1.1em;
   }
 
+  .settings {
+    padding-top: 2.92em;
+    padding-bottom: 2.92em;
+  }
+
+  .settings__text {
+    width: 32em;
+    margin-top: 1.25em;
+    margin-bottom: 2.25em;
+  }
+
   .settings__img {
     display: none;
   }
 
   .settings__carousel {
     display: block;
+  }
+
+  .settings__apps {
+    font-size: 0.83em;
+    width: 38.25em;
   }
 }
