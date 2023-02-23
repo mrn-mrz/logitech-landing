@@ -130,4 +130,51 @@
     font-size: 0.83em;
     width: 38.25em;
   }
+
+  .comfort {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.92em 0 0 0;
+  }
+  
+  .comfort__info {
+    align-items: center;
+    width: 31.75em;
+    margin-left: 0;
+  }
+
+  #comfort__h2 {
+    text-align: center;
+  }
+  
+  #comfort__text {
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 2.08em;
+  }
+
+  .speed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.92em 0 0 0;
+  }
+  
+  .speed__info {
+    align-items: center;
+    width: 31.75em;
+    margin-right: 0;
+  }
+  
+  #speed__h2 {
+    text-align: center;
+  }
+  
+  #speed__text {
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 2.08em;
+  }
 }
