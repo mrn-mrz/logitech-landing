@@ -83,4 +83,27 @@
     margin-top: 0.916em;
     width: 30.83em;
   }
+
+  .devices {
+    background-color: var(--light-gray);
+    padding: 2.916em 2.7em 20.6em 2.7em;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+
+  .devices__text {
+    width: 31.875em;
+  }
+
+  .devices__list {
+    font-size: 0.83em;
+    width: 37.95em;
+  }
+
+  .devices__item:nth-child(2) {
+    padding-left: 1.4em;
+    padding-right: 0.75em;
+    margin-left: 1.05em;
+    margin-right: 1.1em;
+  }
 }
