@@ -58,4 +58,29 @@
   .wireless__img_left {
     display: none;
   }
+
+  .surface {
+    padding-top: 2.91em;
+    padding-bottom: 2.54em;
+  }
+
+  .surface__text_top {
+    width: 30.83em;
+  }
+
+  .surface__advantages {
+    margin-top: 2.08em;
+    margin-bottom: 2.08em;
+  }
+
+  .surface__item {
+    width: 12.5em;
+    height: 7.08em;
+    line-height: 1.17em;
+  }
+
+  .surface__text_bottom {
+    margin-top: 0.916em;
+    width: 30.83em;
+  }
 }
