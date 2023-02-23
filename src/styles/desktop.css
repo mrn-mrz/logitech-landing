@@ -251,6 +251,10 @@ body {
   margin-bottom: 3.6em;
 }
 
+.settings__carousel {
+  display: none;
+}
+
 .settings__apps {
   background-color: var(--dark-gray);
   color: var(--white);

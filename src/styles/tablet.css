@@ -106,4 +106,12 @@
     margin-left: 1.05em;
     margin-right: 1.1em;
   }
+
+  .settings__img {
+    display: none;
+  }
+
+  .settings__carousel {
+    display: block;
+  }
 }
