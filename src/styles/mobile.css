@@ -1,0 +1,255 @@
+@media (max-width: 375px) {
+  .header__main {
+    padding-top: 1.785em;
+  }
+
+  .header__menu {
+    background-color: var(--graphite);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.66em 5.375em 3.416em 5.375em;
+  }
+
+  .logo {
+    width: 9.28em;
+    height: 2.78em;
+  }
+
+  .menu__open {
+    position: absolute;
+    top: 1.785em;
+    right: 28.5px;
+  }
+
+  .menu__open_img {
+    width: 2.14em;
+    height: 1.12em;
+  }
+
+  .menu__close {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.1em;
+  }
+  
+  .nav__item {
+    text-align: center;
+    border-right: none;
+    padding: 0 0 2.458em 0;
+  }
+  
+  .nav__item:first-child {
+    padding-left: 0;
+  }
+  
+  .nav__item:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  
+  .nav__link {
+    font-size: 1.6em;
+    font-weight: 900;
+    line-height: 1.175em;
+    color: var(--dark-gray);
+    padding-bottom: 1.475em;
+  }
+  
+  .nav__link:hover {
+    border-bottom: 4px var(--white) solid;
+    padding-bottom: 0.15em;
+  }
+
+  .work {
+    padding-top: 6.71em;
+    padding-bottom: 3.42em;
+  }
+
+  .work__title {
+    top: 7.9em;
+  }
+
+  .work__text {
+    width: 24.375em;
+    margin-top: 4.78em;
+    margin-bottom: 2.85em;
+  }
+
+  .work__button {
+    width: 2.78em;
+    height: 1.42em;
+  }
+
+  .wireless {
+    padding-top: 3em;
+    padding-bottom: 1.28em;
+  }
+
+  .wireless__icon {
+    margin-bottom: 1.93em;
+    width: 1.28em;
+  }
+
+  .wireless__text {
+    width: 22em;
+    margin-top: 1.43em;
+    margin-bottom: 2.21em;
+  }
+
+  .wireless__info {
+    line-height: 5em;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  .wireless__info_big {
+    font-size: 4.28em;
+    padding-right: 0.25em;
+  }
+
+  .wireless__info_small {
+    font-size: 4.28em;
+    padding-top: 0;
+  }
+
+  .wireless__img_right {
+    width: 26.78em;
+    height: 15.57em;
+    margin-left: 0;
+  }
+
+  .surface {
+    padding-top: 5em;
+    padding-bottom: 4.5em;
+  }
+
+  .surface__text_top {
+    width: 17.64em;
+  }
+
+  .surface__advantages {
+    margin-top: 2.14em;
+    margin-bottom: 2.14em;
+  }
+
+  .surface__item {
+    width: 11.85em;
+    height: 6.71em;
+    line-height: 1.14em;
+  }
+
+  .surface__item_left {
+    margin-right: 0.428em;
+  }
+
+  .surface__text_bottom {
+    margin-top: 1.39em;
+    width: 22em;
+  }
+
+  .devices {
+    background-color: var(--light-gray);
+    padding: 2.916em 2.7em 20.6em 2.7em;
+    background-size: contain;
+    background-position-y: bottom;
+  }
+
+  .devices__text {
+    width: 31.875em;
+  }
+
+  .devices__list {
+    font-size: 0.83em;
+    width: 37.95em;
+  }
+
+  .devices__item:nth-child(2) {
+    padding-left: 1.4em;
+    padding-right: 0.75em;
+    margin-left: 1.05em;
+    margin-right: 1.1em;
+  }
+
+  .settings {
+    padding-top: 2.92em;
+    padding-bottom: 2.92em;
+  }
+
+  .settings__text {
+    width: 32em;
+    margin-top: 1.25em;
+    margin-bottom: 2.25em;
+  }
+
+  .settings__img {
+    display: none;
+  }
+
+  .settings__carousel {
+    display: block;
+  }
+
+  .settings__apps {
+    font-size: 0.83em;
+    width: 38.25em;
+  }
+
+  .comfort {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.92em 0 0 0;
+  }
+  
+  .comfort__info {
+    align-items: center;
+    width: 31.75em;
+    margin-left: 0;
+  }
+
+  #comfort__h2 {
+    text-align: center;
+  }
+  
+  #comfort__text {
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 2.08em;
+  }
+
+  .speed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.92em 0 0 0;
+  }
+  
+  .speed__info {
+    align-items: center;
+    width: 31.75em;
+    margin-right: 0;
+  }
+  
+  #speed__h2 {
+    text-align: center;
+  }
+  
+  #speed__text {
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom: 2.08em;
+  }
+}
