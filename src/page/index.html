@@ -11,29 +11,71 @@
 </head>
 <body>
   <header class="header">
-    <img src="../../public/icons/logo.svg" alt="логотип">
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a class="nav__link" href="#wireless">Работайте без проводов</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#surface">Где угодно</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#comfort">С комфортом</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#devices">С разных устройств</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#settings">В любое время</a>
-        </li>
-        <li class="nav__item">
-          <a class="nav__link" href="#speed">И еще быстрее</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="header_desktop">
+      <img class="logo" src="../../public/icons/logo.svg" alt="логотип">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#wireless">Работайте без проводов</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#surface">Где угодно</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#comfort">С комфортом</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#devices">С разных устройств</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#settings">В любое время</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#speed">И еще быстрее</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header_mobile">
+      <div class="header__main">
+        <img src="../../public/icons/dark_logo.svg" alt="логотип">
+        <button class="menu__open">
+          <svg width="61" height="40" viewBox="0 0 61 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M61 36L-3.41018e-06 36M60.9999 20L1.03991e-05 20M61 4L7.38502e-05 4" stroke="#2F3132" stroke-width="8"/>
+          </svg>          
+        </button>
+      </div>
+      <div class="header__menu">
+        <img src="../../public/icons/logo.svg" alt="логотип">
+        <button class="menu__close">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.6999 46.7004L3.56641 3.5669M3.56683 46.7004L46.7003 3.56696" stroke="white" stroke-width="8"/>
+          </svg>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#wireless">Без проводов</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#surface">За любым столом</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#devices">Одновременно с нескольких устройств</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#settings">С индивидуальными настройками</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#speed">Быстрее, <br> чем когда либо</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#comfort">Комфортно. Эргономично. Интуитивно.</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
   <h1 hidden></h1>
   <section class="work" id="work">

@@ -3,12 +3,25 @@ body {
 
 }
 
-.header {
+.header_desktop {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: var(--graphite);
   padding: 1.4em 3.05em;
+}
+
+.header__main {
+  display: none;
+}
+
+.header__menu {
+  display: none;
+}
+
+.logo {
+  width: 7.5em;
+  height: 2.25em;
 }
 
 .nav__list {
