@@ -160,41 +160,39 @@
   }
 
   .devices {
-    background-color: var(--light-gray);
-    padding: 2.916em 2.7em 20.6em 2.7em;
-    background-size: contain;
-    background-position-y: bottom;
+    padding: 5em 2.357em 15.64em 2.357em;
+    display: block;
   }
 
   .devices__text {
-    width: 31.875em;
+    width: 22em;
+    margin-bottom: 2.57em;
   }
 
   .devices__list {
-    font-size: 0.83em;
-    width: 37.95em;
+    font-size: 1em;
+    width: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1.42em;
   }
 
   .devices__item:nth-child(2) {
-    padding-left: 1.4em;
-    padding-right: 0.75em;
-    margin-left: 1.05em;
-    margin-right: 1.1em;
+    border: none;
+    padding: 0;
+    margin: 1.14em 0 1.14em 0;
   }
 
   .settings {
-    padding-top: 2.92em;
-    padding-bottom: 2.92em;
+    padding-top: 5em;
+    padding-bottom: 0;
   }
 
   .settings__text {
-    width: 32em;
-    margin-top: 1.25em;
-    margin-bottom: 2.25em;
-  }
-
-  .settings__img {
-    display: none;
+    width: 22em;
+    margin-top: 1.43em;
+    margin-bottom: 2.5em;
   }
 
   .settings__carousel {
@@ -202,54 +200,52 @@
   }
 
   .settings__apps {
-    font-size: 0.83em;
-    width: 38.25em;
+    font-size: 1em;
+    width: 26.78em;
+    padding-top: 1.64em;
+    padding-bottom: 1.85em;
+  }
+
+  .settings__icons {
+    grid-gap: 1.57em;
+    padding-left: 2.07em;
+    padding-right: 1.57em;
+  }
+
+  .settings__icons>svg {
+    height: 1.58em;
+    width: auto;
   }
 
   .comfort {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2.92em 0 0 0;
+    padding: 5em 0 0 0;
   }
   
   .comfort__info {
-    align-items: center;
-    width: 31.75em;
-    margin-left: 0;
-  }
-
-  #comfort__h2 {
-    text-align: center;
+    width: 21.9em;
   }
   
   #comfort__text {
-    text-align: center;
-    margin-top: 1.25em;
-    margin-bottom: 2.08em;
+    margin-top: 1.43em;
+    margin-bottom:1.43em;
   }
 
   .speed {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2.92em 0 0 0;
+    padding: 5em 0 0 0;
   }
   
   .speed__info {
-    align-items: center;
-    width: 31.75em;
-    margin-right: 0;
-  }
-  
-  #speed__h2 {
-    text-align: center;
+    width: 21.9em;
   }
   
   #speed__text {
-    text-align: center;
-    margin-top: 1.25em;
-    margin-bottom: 2.08em;
+    margin-top: 1.43em;
+    margin-bottom:1.43em;
+  }
+
+  .footer {
+    font-size: 0.5em;
+    padding-top: 3.14em;
+    padding-bottom: 5.28em;
   }
 }
