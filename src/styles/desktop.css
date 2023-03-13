@@ -100,7 +100,7 @@ body {
 }
 
 .wireless__text {
-  width: 38.05em;
+  width: 40%;
   margin-top: 1.75em;
   margin-bottom: 0.7em;
 }
@@ -148,7 +148,7 @@ body {
 
 .surface__text_top {
   margin-top: 1.75em;
-  width: 38.25em;
+  width: 40%;
 }
 
 .surface__advantages {
@@ -175,6 +175,7 @@ body {
 
 .surface__text_bottom {
   margin-top: 1.75em;
+  width: 40%;
 }
 
 .carousel__text {
@@ -226,13 +227,13 @@ body {
 .devices__text {
   margin-top: 1.75em;
   margin-bottom: 3.45em;
-  width: 47.9em;
+  width: 50%;
 }
 
 .devices__list {
   display: flex;
   justify-content: center;
-  width: 47.9em;
+  width: 48%;
 }
 
 .devices__item {
@@ -259,7 +260,7 @@ body {
 }
 
 .settings__text {
-  width: 48em;
+  width: 50%;
   margin-top: 1.9em;
   margin-bottom: 3.6em;
 }
@@ -273,7 +274,7 @@ body {
   color: var(--white);
   padding-top: 1.9em;
   padding-bottom: 1.45em;
-  width: 37.45em;
+  width: 37.5em;
 }
 
 .settings__icons {

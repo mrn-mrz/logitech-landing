@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 720px) {
   .header__main {
     padding-top: 1.785em;
   }
@@ -82,7 +82,7 @@
   }
 
   .work__text {
-    width: 24.375em;
+    width: 68%;
     margin-top: 4.78em;
     margin-bottom: 2.85em;
   }
@@ -103,7 +103,7 @@
   }
 
   .wireless__text {
-    width: 22em;
+    width: 82%;
     margin-top: 1.43em;
     margin-bottom: 2.21em;
   }
@@ -136,7 +136,7 @@
   }
 
   .surface__text_top {
-    width: 17.64em;
+    width: 82%;
   }
 
   .surface__advantages {
@@ -156,7 +156,7 @@
 
   .surface__text_bottom {
     margin-top: 1.39em;
-    width: 22em;
+    width: 82%;
   }
 
   .devices {
@@ -165,7 +165,7 @@
   }
 
   .devices__text {
-    width: 22em;
+    width: 100%;
     margin-bottom: 2.57em;
   }
 
@@ -190,7 +190,7 @@
   }
 
   .settings__text {
-    width: 22em;
+    width: 82%;
     margin-top: 1.43em;
     margin-bottom: 2.5em;
   }
@@ -201,7 +201,7 @@
 
   .settings__apps {
     font-size: 1em;
-    width: 26.78em;
+    width: 100%;
     padding-top: 1.64em;
     padding-bottom: 1.85em;
   }
@@ -222,7 +222,7 @@
   }
   
   .comfort__info {
-    width: 21.9em;
+    width: 82%;
   }
   
   #comfort__text {
@@ -235,7 +235,7 @@
   }
   
   .speed__info {
-    width: 21.9em;
+    width: 82%;
   }
   
   #speed__text {

@@ -1,3 +1,62 @@
+
+@media (max-width: 1280px) {
+  .wireless__text {
+    width: 60%;
+  }
+
+  .surface__text_top {
+    width: 60%;
+  }
+
+  .surface__text_bottom {
+    width: 60%;
+  }
+
+  .devices__text {
+    width: 75%;
+  }
+  
+  .devices__list {
+    width: 73%;
+  }
+
+  .settings__text {
+    width: 75%;
+  }
+
+  .settings__apps {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1152px) {
+  .nav__item {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .nav__link {
+    font-size: 0.5em;
+  }
+
+  .wireless__img_left {
+    display: none;
+  }
+
+  .settings__icons {
+    grid-gap: 1em;
+    padding: 0 3em 1em 3em;
+  }
+
+  .comfort {
+    padding-right: 5em;
+  }
+  
+  .speed {
+    padding-left: 5em;
+  }
+}
+
 @media (max-width: 894px) {
   .header_desktop {
     display: none;
@@ -83,7 +142,7 @@
   }
 
   .work__text {
-    width: 24.375em;
+    width: 60%;
     margin-top: 5.166em;
     margin-bottom: 3.166em;
   }
@@ -104,7 +163,7 @@
   }
 
   .wireless__text {
-    width: 30.83em;
+    width: 83%;
     margin-top: 1.25em;
     margin-bottom: 3.16em;
   }
@@ -135,7 +194,7 @@
   }
 
   .surface__text_top {
-    width: 30.83em;
+    width: 83%;
   }
 
   .surface__advantages {
@@ -151,7 +210,7 @@
 
   .surface__text_bottom {
     margin-top: 0.916em;
-    width: 30.83em;
+    width: 83%;
   }
 
   .devices {
@@ -162,12 +221,12 @@
   }
 
   .devices__text {
-    width: 31.875em;
+    width: 100%;
   }
 
   .devices__list {
     font-size: 0.83em;
-    width: 37.95em;
+    width: 100%;
   }
 
   .devices__item:nth-child(2) {
@@ -183,7 +242,7 @@
   }
 
   .settings__text {
-    width: 32em;
+    width: 85%;
     margin-top: 1.25em;
     margin-bottom: 2.25em;
   }
