@@ -11,11 +11,7 @@ body {
   padding: 1.4em 3.05em;
 }
 
-.header__main {
-  display: none;
-}
-
-.header__menu {
+.header_mobile {
   display: none;
 }
 
