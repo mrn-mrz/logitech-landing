@@ -183,6 +183,14 @@ body {
   margin-bottom: 0.75em;
 }
 
+.carousel__item.active {
+  display: block;
+}
+
+.carousel__item {
+  display: none;
+}
+
 .carousel__control {
   display: flex;
   justify-content: center;
