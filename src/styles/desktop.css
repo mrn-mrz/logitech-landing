@@ -210,7 +210,7 @@ body {
   cursor: pointer;
 }
 
-.carousel__indicator {
+.surface__indicator {
   border: none;
   background: none;
   margin-right: 1.5em;

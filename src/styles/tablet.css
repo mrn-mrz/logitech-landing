@@ -269,6 +269,31 @@
     display: block;
   }
 
+  .carousel__indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 53px;
+    margin-bottom: 70px;
+  }
+
+  .settings__indicator {
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background: var(--dark-gray);
+  }
+
+  .settings__indicator.active {
+    background: var(--graphite);
+  }
+
+  .settings__indicator:last-child {
+    margin: 0;
+  }
+
   .settings__apps {
     font-size: 0.83em;
     width: 38.25em;
