@@ -269,6 +269,10 @@
     display: block;
   }
 
+  .settings .carousel__inner {
+    height: 610px;
+  }
+
   .carousel__indicators {
     display: flex;
     justify-content: center;

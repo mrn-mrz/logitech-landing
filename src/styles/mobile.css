@@ -173,6 +173,10 @@
     display: block;
   }
 
+  .settings .carousel__inner {
+    height: 404px;
+  }
+
   .settings__apps {
     font-size: 1em;
     width: 100%;
