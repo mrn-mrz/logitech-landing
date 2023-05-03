@@ -1,21 +1,39 @@
 const indicators = document.querySelectorAll('.carousel__indicator');
 const nextBtn = document.querySelector('.carousel__next');
 const prevBtn = document.querySelector('.carousel__prev');
-const slides = document.querySelectorAll('.carousel__item');
-let activeSlide = document.querySelector('.carousel__item.active');
-let count = [...slides].indexOf(activeSlide);
+let area;
+let label;
+let slides;
+let activeSlide;
+let activeIndicator;
+let count;
 
-const indicatorClick = (e) => {
-  slides[count].classList.remove('active');
-
-  let label = e.ariaLabel;
-  let newSlide = document.querySelector(`[aria-label="${label}"]`);
-  newSlide.classList.add('active');
-  activeSlide = newSlide;
+const carouselIndificator = (e) => {
+  area = e.closest('section');
+  slides = area.querySelectorAll('.carousel__item');
+  label = e.ariaLabel;
+  activeSlide = area.querySelector('.carousel__item.active');
   count = [...slides].indexOf(activeSlide);
 }
 
-const nextClick = () => {
+const indicatorClick = (e) => {
+  
+  carouselIndificator(e);
+
+  activeSlide.classList.remove('active');
+  let newSlide = area.querySelector(`[aria-label="${label}"]`);
+  newSlide.classList.add('active');
+  activeSlide = newSlide;
+  count = [...slides].indexOf(activeSlide);
+
+  activeIndicator = area.querySelector('.carousel__indicator.active');
+  activeIndicator.classList.remove('active');
+  console.log(activeIndicator)
+  let newIndicator = e.classList.add('active');
+  activeIndicator = newIndicator;
+}
+
+const nextClick = (e) => {
   slides[count].classList.remove('active');
 
   count = count === slides.length - 1 ? count = 0 : count + 1;
@@ -23,7 +41,7 @@ const nextClick = () => {
   activeSlide = slides[count].classList.add('active');
 }
 
-const prevClick = () => {
+const prevClick = (e) => {
   slides[count].classList.remove('active');
 
   count = count === 0 ? count = slides.length - 1 : count - 1;
